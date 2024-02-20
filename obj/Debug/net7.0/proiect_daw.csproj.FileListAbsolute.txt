@@ -190,3 +190,13 @@
 /Users/catizavoianu/Desktop/proiect_daw/proiect_daw/obj/Debug/net7.0/proiect_daw.pdb
 /Users/catizavoianu/Desktop/proiect_daw/proiect_daw/obj/Debug/net7.0/proiect_daw.genruntimeconfig.cache
 /Users/catizavoianu/Desktop/proiect_daw/proiect_daw/obj/Debug/net7.0/ref/proiect_daw.dll
+/Users/catizavoianu/Desktop/proiect_daw/proiect_daw/bin/Debug/net7.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/catizavoianu/Desktop/proiect_daw/proiect_daw/bin/Debug/net7.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+/Users/catizavoianu/Desktop/proiect_daw/proiect_daw/bin/Debug/net7.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/Users/catizavoianu/Desktop/proiect_daw/proiect_daw/bin/Debug/net7.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Users/catizavoianu/Desktop/proiect_daw/proiect_daw/bin/Debug/net7.0/Microsoft.Extensions.Identity.Core.dll
+/Users/catizavoianu/Desktop/proiect_daw/proiect_daw/bin/Debug/net7.0/Microsoft.Extensions.Identity.Stores.dll
+/Users/catizavoianu/Desktop/proiect_daw/proiect_daw/bin/Debug/net7.0/Microsoft.Extensions.Options.dll
+/Users/catizavoianu/Desktop/proiect_daw/proiect_daw/bin/Debug/net7.0/System.Text.Encodings.Web.dll
+/Users/catizavoianu/Desktop/proiect_daw/proiect_daw/bin/Debug/net7.0/System.Text.Json.dll
+/Users/catizavoianu/Desktop/proiect_daw/proiect_daw/bin/Debug/net7.0/runtimes/browser/lib/net7.0/System.Text.Encodings.Web.dll

@@ -6,8 +6,6 @@ namespace proiect_daw.Models
 	{
        public int NrCollab { get; set; }
 
-
-
         //collaborator relation
         public Collaborator Collaborator { get; set; }
         public Guid CollaboratorId { get; set; }

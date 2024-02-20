@@ -1,47 +1,60 @@
 ﻿<Properties StartupConfiguration="{305CB560-73D8-4311-B0F2-E29146646BDE}|https">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.proiect__daw PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Helpers/Attributes/AuthorizeAttribute.cs">
     <Files>
-      <File FileName="Models/Base/BaseEntity.cs" Line="16" Column="1" />
-      <File FileName="Models/Base/IBaseEntity.cs" Line="14" Column="1" />
-      <File FileName="Models/Enums/CollaboratorRole.cs" Line="9" Column="2" />
+      <File FileName="Models/Base/BaseEntity.cs" />
+      <File FileName="Models/Base/IBaseEntity.cs" />
+      <File FileName="Models/Enums/CollaboratorRole.cs" Line="11" Column="1" />
       <File FileName="Models/Enums/UserRole.cs" Line="10" Column="1" />
-      <File FileName="Models/Artwork.cs" Line="27" Column="1" />
-      <File FileName="Models/Collaborator.cs" Line="25" Column="1" />
-      <File FileName="Models/Comment.cs" Line="12" Column="1" />
-      <File FileName="Models/Istoric.cs" Line="18" Column="1" />
-      <File FileName="Models/Project.cs" Line="32" Column="1" />
-      <File FileName="Models/Project_Collaborator.cs" Line="19" Column="1" />
-      <File FileName="Models/User.cs" Line="18" Column="1" />
-      <File FileName="Data/clasaContext.cs" Line="12" Column="1" />
-      <File FileName="Program.cs" Line="19" Column="1" />
-      <File FileName="appsettings.json" Line="14" Column="1" />
-      <File FileName="Controllers/databaseController.cs" Line="25" Column="31" />
-      <File FileName="Models/DTOs/ArtworkDto.cs" Line="14" Column="1" />
-      <File FileName="Models/DTOs/ProjectDto.cs" Line="13" Column="1" />
-      <File FileName="Models/DTOs/UserDto.cs" Line="23" Column="2" />
+      <File FileName="Models/Artwork.cs" />
+      <File FileName="Models/Collaborator.cs" Line="23" Column="1" />
+      <File FileName="Models/Comment.cs" />
+      <File FileName="Models/Istoric.cs" />
+      <File FileName="Models/Project.cs" />
+      <File FileName="Models/Project_Collaborator.cs" />
+      <File FileName="Models/User.cs" Line="15" Column="1" />
+      <File FileName="Data/clasaContext.cs" />
+      <File FileName="Program.cs" />
+      <File FileName="appsettings.json" />
+      <File FileName="Controllers/databaseController.cs" />
+      <File FileName="Models/DTOs/ArtworkDto.cs" Line="1" Column="1" />
+      <File FileName="Models/DTOs/ProjectDto.cs" />
+      <File FileName="Models/DTOs/UserDto.cs" />
+      <File FileName="WeatherForecast.cs" />
+      <File FileName="appsettings.Development.json" />
+      <File FileName=".gitattributes" />
+      <File FileName="Models/DTOs/UserAuth/UserLoginDto.cs" Line="11" Column="19" />
+      <File FileName="Models/DTOs/UserAuth/UserLoginResponse.cs" Line="20" Column="1" />
+      <File FileName="Models/DTOs/UserAuth/UserRegisterDto.cs" Line="21" Column="1" />
+      <File FileName="Helpers/Attributes/AllowAnnonymousAttribute.cs" Line="7" Column="6" />
+      <File FileName="Helpers/Attributes/AuthorizeAttribute.cs" Line="15" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="proiect_daw" expanded="True">
             <Node name="proiect_daw">
-              <Node name="Data" expanded="True" />
+              <Node name="Helpers" expanded="True">
+                <Node name="Attributes">
+                  <Node name="AuthorizeAttribute.cs" selected="True" />
+                </Node>
+              </Node>
               <Node name="Models">
                 <Node name="Base" expanded="True" />
-                <Node name="Enums" expanded="True" />
+                <Node name="DTOs" expanded="True">
+                  <Node name="UserAuth" expanded="True" />
+                </Node>
               </Node>
-              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.proiect__daw PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
 </Properties>

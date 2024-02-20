@@ -60,17 +60,6 @@ namespace proiect_daw.Controllers
 
 
 
-
-
-
-
-
-
-
-
-
-
-
         [HttpPost("UserPost")]
         public async Task<IActionResult> PostUser(UserDto userDTO)
         {

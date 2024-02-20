@@ -1,6 +1,7 @@
 ﻿using System;
 using proiect_daw.Models.Base;
 using proiect_daw.Models.Enums;
+using System.Text.Json.Serialization;
 
 namespace proiect_daw.Models
 {
@@ -12,11 +13,6 @@ namespace proiect_daw.Models
 
         public string Email { get; set; }
 
-        public string Username { get; set; }
-
-        public string Password { get; set; }
-
-        public CollaboratorRole Role { get; set; }
 
 
         //Project_Collaborator relation

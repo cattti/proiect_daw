@@ -1,6 +1,7 @@
 ﻿using System;
 using proiect_daw.Models.Base;
 using proiect_daw.Models.Enums;
+using System.Text.Json.Serialization;
 
 namespace proiect_daw.Models
 {
@@ -16,6 +17,7 @@ namespace proiect_daw.Models
 
         public string Username { get; set; }
 
+        [JsonIgnore]
         public string Password { get; set; }
 
         public UserRole Role { get; set; }

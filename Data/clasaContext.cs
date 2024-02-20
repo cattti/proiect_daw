@@ -3,6 +3,7 @@ using proiect_daw.Models;
 using System.Collections.Generic;
 using System.Reflection.Emit;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
 
 namespace proiect_daw.Data
 {
@@ -75,11 +76,29 @@ namespace proiect_daw.Data
 
 
 
-
-
+  
 
             base.OnModelCreating(modelbuilder);
+
+            SeedRoles(modelbuilder);
+
+
+
         }
+
+
+
+        private static void SeedRoles(ModelBuilder builder)
+        {
+            builder.Entity<IdentityRole>().HasData
+                (
+                new IdentityRole() { Name= "Admin", ConcurrencyStamp="1", NormalizedName="Admin"},
+                new IdentityRole() { Name= "User", ConcurrencyStamp="2", NormalizedName="User"}
+                );
+        }
+
+
+
     }
 }
 

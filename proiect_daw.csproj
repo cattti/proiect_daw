@@ -24,6 +24,9 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.16" />
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="System.Text.Json" Version="8.0.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.16" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.16" />
   </ItemGroup>
 
   <ItemGroup>
@@ -32,6 +35,16 @@
     <None Remove="Models\Enums\" />
     <None Remove="Data\" />
     <None Remove="Models\DTOs\" />
+    <None Remove="Helpers\" />
+    <None Remove="Services\" />
+    <None Remove="Models\DTOs\UserAuth\" />
+    <None Remove="Helpers\Attributes\" />
+    <None Remove="Helpers\Extensions\" />
+    <None Remove="Helpers\JwtUtils\" />
+    <None Remove="Repositories\" />
+    <None Remove="Repositories\GenericRepository\" />
+    <None Remove="Repositories\UserRepository\" />
+    <None Remove="Models\IdentityAuthentification\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
@@ -39,5 +52,15 @@
     <Folder Include="Models\Enums\" />
     <Folder Include="Data\" />
     <Folder Include="Models\DTOs\" />
+    <Folder Include="Helpers\" />
+    <Folder Include="Services\" />
+    <Folder Include="Models\DTOs\UserAuth\" />
+    <Folder Include="Helpers\Attributes\" />
+    <Folder Include="Helpers\Extensions\" />
+    <Folder Include="Helpers\JwtUtils\" />
+    <Folder Include="Repositories\" />
+    <Folder Include="Repositories\GenericRepository\" />
+    <Folder Include="Repositories\UserRepository\" />
+    <Folder Include="Models\IdentityAuthentification\" />
   </ItemGroup>
 </Project>
