@@ -29,7 +29,6 @@ namespace proiect_daw.Controllers
 
 
         [HttpPost("ArtworkPost")]
-        ///adaugare inregistrare in tabel
         public async Task<IActionResult> Create(ArtworkDto artworkDto)
         {
 
@@ -68,7 +67,6 @@ namespace proiect_daw.Controllers
                 return BadRequest(ModelState);
             }
 
-            // Create a new User entity from the DTO
             var user = new User
             {
                 Id = Guid.NewGuid(),
@@ -79,13 +77,11 @@ namespace proiect_daw.Controllers
                 Username = userDTO.Username,
                 Email = userDTO.Email,
                 Role = userDTO.Role
-                // Add more properties as needed
             };
 
             await _clasaContext.Users.AddAsync(user);
             await _clasaContext.SaveChangesAsync();
 
-            // Return a success response
             return Ok(user);
         }
 

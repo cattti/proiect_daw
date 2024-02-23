@@ -1,10 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using proiect_daw.Data;
 using proiect_daw.Models;
 using proiect_daw.Models.DTOs;
 using proiect_daw.Services.CommentService;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -21,6 +23,8 @@ namespace proiect_daw.Controllers
             _commentService = commentService;
         }
 
+
+        [Authorize(Roles = "User")]
         [HttpPost]
         public async Task<IActionResult> CreateComment([FromBody] Comment comment)
         {
@@ -46,6 +50,8 @@ namespace proiect_daw.Controllers
             return Ok(comment);
         }
 
+
+        [Authorize(Roles = "User")]
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateComment(Guid id, [FromBody] Comment comment)
         {
@@ -54,6 +60,8 @@ namespace proiect_daw.Controllers
             return NoContent();
         }
 
+
+        [Authorize(Roles = "User")]
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteComment(Guid id)
         {

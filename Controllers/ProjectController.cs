@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using proiect_daw.Data;
 using proiect_daw.Models;
@@ -6,6 +7,7 @@ using proiect_daw.Models.DTOs;
 using proiect_daw.Services.ProjectService;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -20,9 +22,13 @@ namespace proiect_daw.Controllers
             public ProjectController(IProjectService projectService)
             {
                 _projectService = projectService;
-            }
+        }
 
-            [HttpPost]
+
+
+
+        [Authorize(Roles = "Admin")]
+        [HttpPost]
             public async Task<IActionResult> CreateProject([FromBody] Project project)
             {
                 var createdProject = await _projectService.CreateProjectAsync(project);
@@ -47,7 +53,10 @@ namespace proiect_daw.Controllers
                 return Ok(project);
             }
 
-            [HttpPut("{id}")]
+
+
+        [Authorize(Roles = "Admin")]
+        [HttpPut("{id}")]
             public async Task<IActionResult> UpdateProject(Guid id, [FromBody] Project project)
             {
                 project.Id = id;
@@ -55,7 +64,11 @@ namespace proiect_daw.Controllers
                 return NoContent();
             }
 
-            [HttpDelete("{id}")]
+
+
+
+        [Authorize(Roles = "Admin")]
+        [HttpDelete("{id}")]
             public async Task<IActionResult> DeleteProject(Guid id)
             {
                 await _projectService.DeleteProjectAsync(id);

@@ -49,7 +49,7 @@ namespace proiect_daw.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateCollaborator(Guid id, [FromBody] Collaborator collaborator)
         {
-            collaborator.Id = id; // Asigură-te că id-ul colaboratorului este setat corect
+            collaborator.Id = id; 
             await _collaboratorService.UpdateCollaboratorAsync(collaborator);
             return NoContent();
         }
