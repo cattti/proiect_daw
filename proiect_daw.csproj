@@ -45,6 +45,14 @@
     <None Remove="Repositories\GenericRepository\" />
     <None Remove="Repositories\UserRepository\" />
     <None Remove="Models\IdentityAuthentification\" />
+    <None Remove="Repositories\ArtworkRepository\" />
+    <None Remove="Repositories\ProjectRepository\" />
+    <None Remove="Repositories\CommentRepository\" />
+    <None Remove="Repositories\CollaboratorRepository\" />
+    <None Remove="Services\ArtworkService\" />
+    <None Remove="Services\CommentService\" />
+    <None Remove="Services\ProjectService\" />
+    <None Remove="Services\CollaboratorService\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
@@ -62,5 +70,13 @@
     <Folder Include="Repositories\GenericRepository\" />
     <Folder Include="Repositories\UserRepository\" />
     <Folder Include="Models\IdentityAuthentification\" />
+    <Folder Include="Repositories\ArtworkRepository\" />
+    <Folder Include="Repositories\ProjectRepository\" />
+    <Folder Include="Repositories\CommentRepository\" />
+    <Folder Include="Repositories\CollaboratorRepository\" />
+    <Folder Include="Services\ArtworkService\" />
+    <Folder Include="Services\CommentService\" />
+    <Folder Include="Services\ProjectService\" />
+    <Folder Include="Services\CollaboratorService\" />
   </ItemGroup>
 </Project>
